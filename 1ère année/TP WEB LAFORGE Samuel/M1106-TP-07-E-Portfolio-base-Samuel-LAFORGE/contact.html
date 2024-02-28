@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <title>Portfolio de Samuel LAFORGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CSS only mobile first navigation">
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/button.css" />
+
+  <script type="text/javascript" language="JavaScript" src="script/top.js"></script>
+  <!-- <script type="text/javascript" language="JavaScript" src="script/adapt.js"></script> -->
+
+  <!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+  <link rel="shortcut icon" href="img/portfolio.ico">
+</head>
+
+<body>
+
+  <div id="menu">
+    <header id="haut">
+
+      <div class="screen-above-1024">
+        <div class="informations-personnelles">
+          <h1 class="prenom">Samuel <span class="vert">LAFORGE</span></h1>
+          <h4 class="Qualité vert">Etudiant en RT1</h4>
+        </div>
+        <ul class="menu">
+          <a href="index.html"><button class="btn-info" type="button" title="Accueil">Accueil</button></a>
+          <a href="experience.html"><button class="btn-info" type="button" title="Expérience">Expérience</button></a>
+          <a href="loisirs.html"><button class="btn-info" type="button" title="Loisirs">Loisirs</button></a>
+          <a href="achievements.html"><button class="btn-info" type="button" title="Réalisations">Réalisations</button></a>
+          <a href="#"><button class="btn-info active" type="button" title="Contact">Contact</button></a>
+        </ul>
+      </div>
+
+    </header>
+  </div>
+
+  <div class="container">
+    <section class="cadre" id="box">
+      <div id="div-contact">
+        <div class="div-coordonnee">
+          <h1 class="vert">CONTACT</h1>
+          <h3>Samuel LAFORGE</h3>
+          16 bis Impasse courbe<br/> 34300 AGDE<br/><br/> Site WEB : www.Prénom.NOM.fr<br/><br/>  Email : toto@gmail.com<br/><br/> Téléphone : 06 05 04 03 02<br/>
+        </div>
+        <div class="div-redaction">
+          A bientôt !
+
+          <p><input class="cases-contact" type="text" placeholder="Votre nom" /></p>
+          <p><input class="cases-contact" type="text" placeholder="Votre Email" /></p>
+          <p><textarea class="cases-contact" placeholder="Votre message" rows="5" cols="25"></textarea></p>
+          <button class="btn-info" type="button"><a title="Envoyer le message">Envoyer</a></button>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="foot">
+    <div id="div1">
+      <p>2018 &copy; Samuel LAFORGE - Tous droits réservés</p>
+    </div>
+    <div id="div2"><a href="#" title="Rejoignez-moi sur Facebook"><img src="img/01.png" width="32px" onmouseover="javascript:this.src='img/01_bis.png';" onmouseout="javascript:this.src='img/01.png';" style="padding-right: 10px;"></a>
+      <a href="#" title="Rejoignez-moi sur Twitter"><img src="img/02.png" width="32px" onmouseover="javascript:this.src='img/02_bis.png';" onmouseout="javascript:this.src='img/02.png';"
+          style="padding-right: 10px;"></a><a href="#" title="Rejoignez-moi sur LinkedIn"><img src="img/03.png" width="32px" onmouseover="javascript:this.src='img/03_bis.png';" onmouseout="javascript:this.src='img/03.png';" style="padding-right: 10px;"></a>
+      <a href="#" title="Rejoignez-moi sur Google +"><img src="img/04.png" width="32px" onmouseover="javascript:this.src='img/04_bis.png';" onmouseout="javascript:this.src='img/04.png';"
+            style="padding-right: 10px;"></a>
+    </div>
+   <div class="clear">
+	</div>
+	<button onclick="topFunction()" id="myBtn" class="btn-info" type="button" title="Retour en haut de la page">HAUT</button>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+No.     Time           Source                Destination           Protocol Length Info
+     10 17.444125150   Dell_e0:7e:ce         Broadcast             PPPoED   60     Active Discovery Initiation (PADI)
+
+Frame 10: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 17.444253408   Luxshare_02:b9:e9     Dell_e0:7e:ce         PPPoED   57     Active Discovery Offer (PADO) AC-Name='213-2'
+
+Frame 11: 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 17.444708240   Dell_e0:7e:ce         Luxshare_02:b9:e9     PPPoED   60     Active Discovery Request (PADR)
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 17.445379033   Luxshare_02:b9:e9     Dell_e0:7e:ce         PPPoED   24     Active Discovery Session-confirmation (PADS)
+
+Frame 13: 24 bytes on wire (192 bits), 24 bytes captured (192 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Discovery

@@ -1,0 +1,79 @@
+No.     Time           Source                Destination           Protocol Length Info
+     25 2.031616809    10.213.4.108          10.213.4.2            ICMP     106    Echo (ping) request  id=0x56d4, seq=3/768, ttl=64 (reply in 26)
+
+Frame 25: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 10.213.4.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 2.031797773    10.213.4.2            10.213.4.108          ICMP     106    Echo (ping) reply    id=0x56d4, seq=3/768, ttl=64 (request in 25)
+
+Frame 26: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.2, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 3.032647397    10.213.4.108          10.213.4.2            ICMP     106    Echo (ping) request  id=0x56d4, seq=4/1024, ttl=64 (reply in 31)
+
+Frame 30: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 10.213.4.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 3.032840513    10.213.4.2            10.213.4.108          ICMP     106    Echo (ping) reply    id=0x56d4, seq=4/1024, ttl=64 (request in 30)
+
+Frame 31: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.2, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 4.038060002    10.213.4.108          10.213.4.2            ICMP     106    Echo (ping) request  id=0x56d4, seq=5/1280, ttl=64 (reply in 37)
+
+Frame 36: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 10.213.4.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 4.038236440    10.213.4.2            10.213.4.108          ICMP     106    Echo (ping) reply    id=0x56d4, seq=5/1280, ttl=64 (request in 36)
+
+Frame 37: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.2, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 5.039497447    10.213.4.108          10.213.4.2            ICMP     106    Echo (ping) request  id=0x56d4, seq=6/1536, ttl=64 (reply in 43)
+
+Frame 42: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 10.213.4.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 5.039682738    10.213.4.2            10.213.4.108          ICMP     106    Echo (ping) reply    id=0x56d4, seq=6/1536, ttl=64 (request in 42)
+
+Frame 43: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.2, Dst: 10.213.4.108
+Internet Control Message Protocol

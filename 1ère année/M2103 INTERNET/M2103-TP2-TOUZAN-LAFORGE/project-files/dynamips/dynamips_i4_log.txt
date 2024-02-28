@@ -1,0 +1,10 @@
+Mar 20 14:29:24.942 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 20 14:29:24.943 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 6725.
+Mar 20 14:29:25.438 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 20 14:29:25.439 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\iut\GNS3\projects\M2103-TP2-TOUZAN-LAFORGE\project-files\dynamips 
+Mar 20 14:29:25.439 GENERAL: working_dir=C:\Users\iut\GNS3\projects\M2103-TP2-TOUZAN-LAFORGE\project-files\dynamips
+Mar 20 14:29:25.440 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-2 
+Mar 20 14:29:50.011 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-2 
+Mar 20 14:29:50.012 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 20 14:29:50.461 HYPERVISOR: Stopped.
+Mar 20 14:29:50.461 GENERAL: reset done.

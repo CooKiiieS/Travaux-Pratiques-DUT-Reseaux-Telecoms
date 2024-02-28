@@ -1,0 +1,98 @@
+411  service NetworkManager stop
+  412  apt-get purge avahi*
+  413  rm -f /home/test/.ssh/*
+  414  cd telechargement
+  415  ls-l
+  416  cd telechargement
+  417  cd Telechargement
+  418  cd Telechargements
+  419  cd Téléchargements
+  420  ls -l
+  421  script_test.sh
+  422  script_test.sh
+  423  ls -lt
+  424  bash script_test.sh
+  425  ip ad show
+  426  ip ad show dev eno1
+  427  ip ad show dev eno1
+  428  ip ad show
+  429  ip ad show dev eno1
+  430  ssh
+  431  ls
+  432  avahid-aut
+  433   mot_de_passe.txt 
+  434   mot_de_passe.txt 
+  435  etu_poste03
+  436  ip
+  437  cd /home/test
+  438  ls -la
+  439  touch test
+  440  nano test
+  441  ssh-add tset
+  442  ssh-add test
+  443  chmod 000 test
+  444  ssh-add test
+  445  ls -l test
+  446  cat test
+  447  chmod 600 test
+  448  ssh-add test
+  449  ssh-add -L
+  450  apt-get install avahi-autoipd
+  451  ip addr flush dev eno1
+  452  ip r flush dev eno1
+  453  avahi-autoipd -D eno1
+  454  ip a show dev eno1
+  455  ip a show dev eno1
+  456  wireshark
+  457  nmap
+  458  nmap 169.254.0.0
+  459  ip r show
+  460  ip a show eno1
+  461  ip a show eno1
+  462  wireshark
+  463  bg
+  464  ip a show eno1
+  465  ip a show eno1
+  466  ip a show eno1
+  467  ip a show eno1
+  468  ip a show eno1
+  469  ip a show eno1
+  470  ip a show eno1
+  471  ip a show eno1
+  472  ip a show eno1
+  473  ip a show eno1
+  474  ip a show eno1
+  475  ip a show eno1
+  476  ping 255.255.255.255
+  477  ping 255.255.255.255 -b
+  478  ping 255.255.255.255 -b
+  479  ping 255.255.255.255 -b
+  480  update-rc.d -f avahi-daemon remove
+  481  ip a flush dev eno1
+  482  ip r flush dev eno1
+  483  ip addr add 10.214.3.1/16 dev eno1
+  484  ip route add default via 10.214.255.254
+  485  ping www.google.fr
+  486  ip a flush dev eno1
+  487  ip addr add 10.214.3.1/16 dev eno1
+  488  ping www.google.fr
+  489  dhclient
+  490  dhclient
+  491  dhclient
+  492  ssh -i /home/test/Bureau/clé etu_poste03
+  493  avahi-discover
+  494  avahi-discover
+  495  avahi-discover
+  496  ssh -i /home/test/Bureau/clé etu_poste03@169.254.8.149
+  497  cd /home
+  498  ls
+  499  ping 255.255.255.255 -b
+  500  ssh -i /home/test/Bureau/clé etu_poste03@192.168.221.253
+  501  dhclient
+  502  host -t txt 33599.moriarty.fun@8.8.8.8
+  503  dig -t txt -q 33599.moriarty.fun@8.8.8.8
+  504  host -t txt 33599.moriarty.fun@8.8.8.8
+  505  dig -t txt -q 33599.moriarty.fun@8.8.8.8
+  506  host -t txt 33599.moriarty.fun 8.8.8.8
+  507  history
+

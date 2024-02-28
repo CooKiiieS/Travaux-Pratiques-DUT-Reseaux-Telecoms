@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SUPERVISION DE CLIMS EN SALLE DE SERVEUR" company="" webLink="http://" view-date="2018-11-01" view-index="0" gantt-divider-location="489" resource-divider-location="300" version="2.8.10" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:9" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="250" order="0"/>
+        <field id="tpd4" name="Date de début" width="120" order="1"/>
+        <field id="tpd5" name="Date de fin" width="115" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Idées du projet" color="#8cb6ce" meeting="false" start="2018-12-06" duration="13" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true">
+            <task id="6" name="Analyse de l'existant" color="#8cb6ce" meeting="false" start="2018-12-06" duration="13" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="Recherche d'une problématique" color="#8cb6ce" meeting="false" start="2018-12-06" duration="13" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Recherche d'éventuelles solutions" color="#8cb6ce" meeting="false" start="2018-12-06" duration="13" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="2" name="Documentation du projet" meeting="false" start="2018-12-06" duration="176" complete="100" expand="true">
+            <task id="13" name="Carte mentale" color="#8cb6ce" meeting="false" start="2018-12-06" duration="59" complete="100" thirdDate="2018-12-06" thirdDate-constraint="1" expand="true"/>
+            <task id="15" name="GANTT" color="#8cb6ce" meeting="false" start="2018-12-06" duration="176" complete="100" thirdDate="2018-12-06" thirdDate-constraint="1" expand="true"/>
+            <task id="57" name="Diagramme d'Exigence" color="#8cb6ce" meeting="false" start="2018-12-06" duration="59" complete="100" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true"/>
+            <task id="103" name="Diagramme d'Etat" color="#8cb6ce" meeting="false" start="2018-12-06" duration="59" complete="100" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true"/>
+            <task id="101" name="Documentation différents capteurs" color="#8cb6ce" meeting="false" start="2019-02-14" duration="79" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="118" name="Documentation micro controlleurs" color="#8cb6ce" meeting="false" start="2019-02-14" duration="79" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="112" name="Documentation MQTT" color="#8cb6ce" meeting="false" start="2019-04-11" duration="31" complete="100" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true"/>
+            <task id="89" name="Diapositive" color="#8cb6ce" meeting="false" start="2019-06-17" duration="10" complete="100" thirdDate="2018-11-15" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="24" name="Mise en oeuvre du projet" meeting="false" start="2019-06-17" duration="11" complete="100" expand="true">
+            <task id="28" name="Programmation SI7021 sur Aruino" color="#8cb6ce" meeting="false" start="2019-06-20" duration="3" complete="100" thirdDate="2019-06-20" thirdDate-constraint="1" expand="true"/>
+            <task id="107" name="Programmation SCT013 sur Aruino" color="#8cb6ce" meeting="false" start="2019-06-20" duration="3" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="105" name="Programmation SI7021 sur Raspberry" color="#8cb6ce" meeting="false" start="2019-06-17" duration="6" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="109" name="Programmation serveur WEB+MQTT+SQL" color="#8cb6ce" meeting="false" start="2019-06-24" duration="5" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+            <task id="115" name="Tests et finitions" color="#8cb6ce" meeting="false" start="2019-06-25" duration="4" complete="100" thirdDate="2019-02-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

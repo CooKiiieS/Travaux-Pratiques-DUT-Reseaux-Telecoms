@@ -1,0 +1,198 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=1/256, ttl=63 (no response found!)
+
+Frame 1: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.008808550    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.2.101? Tell 10.213.255.254
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.157039133    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.2.101? Tell 10.213.255.254
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 1.010777125    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=2/512, ttl=63 (no response found!)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 1.701730392    Cisco_f7:c6:70        Spanning-tree-(for-bridges)_00 STP      60     RST. Root = 32768/0/40:f4:ec:f7:c6:6b  Cost = 0  Port = 0x8035
+
+Frame 5: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 2.034853516    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=3/768, ttl=63 (no response found!)
+
+Frame 6: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 3.058939220    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=4/1024, ttl=63 (no response found!)
+
+Frame 7: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 3.203697073    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.2.101? Tell 10.213.255.254
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 3.701655141    Cisco_f7:c6:70        Spanning-tree-(for-bridges)_00 STP      60     RST. Root = 32768/0/40:f4:ec:f7:c6:6b  Cost = 0  Port = 0x8035
+
+Frame 9: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 4.082859084    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=5/1280, ttl=63 (no response found!)
+
+Frame 10: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 4.291324820    10.213.2.1            193.51.224.24         TCP      66     33708 → 80 [ACK] Seq=1 Ack=1 Win=245 Len=0 TSval=4121973609 TSecr=3856149448
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 193.51.224.24
+Transmission Control Protocol, Src Port: 33708, Dst Port: 80, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 4.305775143    193.51.224.24         10.213.2.1            TCP      66     [TCP ACKed unseen segment] 80 → 33708 [ACK] Seq=1 Ack=2 Win=243 Len=0 TSval=3856159677 TSecr=4121963394
+
+Frame 12: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Dell_e0:84:b2 (98:90:96:e0:84:b2)
+Internet Protocol Version 4, Src: 193.51.224.24, Dst: 10.213.2.1
+Transmission Control Protocol, Src Port: 80, Dst Port: 33708, Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 5.059353302    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.4.105? Tell 10.213.255.254
+
+Frame 13: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 5.106825682    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=6/1536, ttl=63 (no response found!)
+
+Frame 14: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 5.701673709    Cisco_f7:c6:70        Spanning-tree-(for-bridges)_00 STP      60     RST. Root = 32768/0/40:f4:ec:f7:c6:6b  Cost = 0  Port = 0x8035
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 6.130801652    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=7/1792, ttl=63 (no response found!)
+
+Frame 16: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 6.232869722    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.2.101? Tell 10.213.255.254
+
+Frame 17: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 6.233837988    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.4.105? Tell 10.213.255.254
+
+Frame 18: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 6.371251514    fe80::9a90:96ff:fee0:84af ff02::2               ICMPv6   70     Router Solicitation from 98:90:96:e0:84:af
+
+Frame 19: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:af (98:90:96:e0:84:af), Dst: IPv6mcast_02 (33:33:00:00:00:02)
+Internet Protocol Version 6, Src: fe80::9a90:96ff:fee0:84af, Dst: ff02::2
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 7.154862598    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=8/2048, ttl=63 (no response found!)
+
+Frame 20: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 7.701614754    Cisco_f7:c6:70        Spanning-tree-(for-bridges)_00 STP      60     RST. Root = 32768/0/40:f4:ec:f7:c6:6b  Cost = 0  Port = 0x8035
+
+Frame 21: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 7.820254423    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.0.187? Tell 10.213.255.254
+
+Frame 22: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 8.178807170    10.213.2.101          8.8.8.8               ICMP     98     Echo (ping) request  id=0x4904, seq=9/2304, ttl=63 (no response found!)
+
+Frame 23: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: Dell_e0:84:b2 (98:90:96:e0:84:b2), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.213.2.101, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 9.257718718    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.4.105? Tell 10.213.255.254
+
+Frame 24: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 9.258166915    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.213.0.187? Tell 10.213.255.254
+
+Frame 25: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 9.701604271    Cisco_f7:c6:70        Spanning-tree-(for-bridges)_00 STP      60     RST. Root = 32768/0/40:f4:ec:f7:c6:6b  Cost = 0  Port = 0x8035
+
+Frame 26: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol

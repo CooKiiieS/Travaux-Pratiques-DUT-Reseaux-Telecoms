@@ -1,0 +1,7 @@
+interface de Thomas :
+29: ppp0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1492 qdisc pfifo_fast state UNKNOWN group default qlen 3
+    link/ppp 
+    inet 10.213.4.108 peer 10.213.4.2/32 scope global ppp0
+       valid_lft forever preferred_lft forever
+
+

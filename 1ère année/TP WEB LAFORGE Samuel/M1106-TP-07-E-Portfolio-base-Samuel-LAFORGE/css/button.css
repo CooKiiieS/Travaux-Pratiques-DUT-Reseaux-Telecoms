@@ -1,0 +1,31 @@
+.btn-info.active
+{
+	margin-top:5%;
+	background:#6CA200;
+}
+
+.btn-info
+{
+	border-color:black;
+	background:#40610F;
+	color:white;
+	font-size:125%;
+	border-radius:10px;
+}
+
+.btn-info:hover
+{
+	background-color:green;
+	border-color:black;
+	color:white;
+	font-size:125%;
+	border-radius:10px;
+}
+
+#myBtn
+{
+	bottom:20px;
+	right:20px;
+	position:fixed;
+	display:none;
+}

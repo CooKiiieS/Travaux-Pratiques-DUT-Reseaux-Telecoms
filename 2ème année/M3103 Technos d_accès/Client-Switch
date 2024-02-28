@@ -1,0 +1,345 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.213.2.1            10.213.255.255        NBNS     92     Name query NB ISATAP<00>
+
+Frame 1: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 10.213.255.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.733212498    NortelNe_eb:66:a1     Nortel-autodiscovery  NDP      60     Segment Hello
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Nortel Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.733223438    NortelNe_eb:66:a1     Nortel-autodiscovery  NDP      60     FlatNet Hello
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Nortel Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.749127453    10.213.2.1            10.213.255.255        NBNS     92     Name query NB ISATAP<00>
+
+Frame 4: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 10.213.255.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.895847292    0.0.0.0               255.255.255.255       DHCP     342    DHCP Discover - Transaction ID 0x33e1ee77
+
+Frame 5: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+Bootstrap Protocol (Discover)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.934661354    Dell_e0:7e:ce         Broadcast             PPPoED   60     Active Discovery Initiation (PADI)
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.934723374    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPPoED   57     Active Discovery Offer (PADO) AC-Name='213-4'
+
+Frame 7: 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.934729450    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPPoED   57     Active Discovery Offer (PADO) AC-Name='213-4'
+
+Frame 8: 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.935830314    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPPoED   60     Active Discovery Request (PADR)
+
+Frame 9: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.936117088    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPPoED   24     Active Discovery Session-confirmation (PADS)
+
+Frame 10: 24 bytes on wire (192 bits), 24 bytes captured (192 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.937911593    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP LCP  60     Configuration Request
+
+Frame 11: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 1.498842741    10.213.2.1            10.213.255.255        NBNS     92     Name query NB ISATAP<00>
+
+Frame 12: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 10.213.255.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 1.872408203    NortelNe_eb:66:a1     Spanning-tree-(for-bridges)_00 STP      60     Conf. Root = 32768/0/00:04:38:eb:66:a1  Cost = 0  Port = 0x8001
+
+Frame 13: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 1.941010507    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP LCP  40     Configuration Request
+
+Frame 14: 40 bytes on wire (320 bits), 40 bytes captured (320 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 1.941751848    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP LCP  60     Configuration Ack
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 2.093928175    169.254.175.180       239.255.255.250       SSDP     179    M-SEARCH * HTTP/1.1 
+
+Frame 16: 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface 0
+Ethernet II, Src: HewlettP_34:d8:f2 (e4:e7:49:34:d8:f2), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 169.254.175.180, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 56846, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 2.251135453    fe80::39c5:6f37:da95:ae8c ff02::1:3             LLMNR    86     Standard query 0x189b A isatap
+
+Frame 17: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::39c5:6f37:da95:ae8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 58344, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 2.251305755    10.213.2.1            224.0.0.252           LLMNR    66     Standard query 0x189b A isatap
+
+Frame 18: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 61917, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 2.360897038    fe80::39c5:6f37:da95:ae8c ff02::1:3             LLMNR    86     Standard query 0x189b A isatap
+
+Frame 19: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: IPv6mcast_01:00:03 (33:33:00:01:00:03)
+Internet Protocol Version 6, Src: fe80::39c5:6f37:da95:ae8c, Dst: ff02::1:3
+User Datagram Protocol, Src Port: 58344, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 2.361091320    10.213.2.1            224.0.0.252           LLMNR    66     Standard query 0x189b A isatap
+
+Frame 20: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: IPv4mcast_fc (01:00:5e:00:00:fc)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 224.0.0.252
+User Datagram Protocol, Src Port: 61917, Dst Port: 5355
+Link-local Multicast Name Resolution (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 2.563268864    10.213.2.1            10.213.255.255        NBNS     92     Name query NB ISATAP<00>
+
+Frame 21: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 10.213.255.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 3.311178119    10.213.2.1            10.213.255.255        NBNS     92     Name query NB ISATAP<00>
+
+Frame 22: 92 bytes on wire (736 bits), 92 bytes captured (736 bits) on interface 0
+Ethernet II, Src: PcsCompu_cb:b1:c8 (08:00:27:cb:b1:c8), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 10.213.2.1, Dst: 10.213.255.255
+User Datagram Protocol, Src Port: 137, Dst Port: 137
+NetBIOS Name Service
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 3.345380017    0.0.0.0               255.255.255.255       DHCP     342    DHCP Discover - Transaction ID 0x96d3d409
+
+Frame 23: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 68, Dst Port: 67
+Bootstrap Protocol (Discover)
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 3.872688728    NortelNe_eb:66:a1     Spanning-tree-(for-bridges)_00 STP      60     Conf. Root = 32768/0/00:04:38:eb:66:a1  Cost = 0  Port = 0x8001
+
+Frame 24: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 3.939821920    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP LCP  60     Configuration Request
+
+Frame 25: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 3.940031562    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP LCP  36     Configuration Ack
+
+Frame 26: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 3.940132085    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP LCP  30     Echo Request
+
+Frame 27: 30 bytes on wire (240 bits), 30 bytes captured (240 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 3.941235825    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP LCP  60     Echo Request
+
+Frame 28: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 3.941245610    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP PAP  60     Authenticate-Request (Peer-ID='Linux2', Password='test')
+
+Frame 29: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Password Authentication Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 3.941248187    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP LCP  60     Echo Reply
+
+Frame 30: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 3.941369579    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP LCP  30     Echo Reply
+
+Frame 31: 30 bytes on wire (240 bits), 30 bytes captured (240 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 3.941390000    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP PAP  35     Authenticate-Ack (Message='Login ok')
+
+Frame 32: 35 bytes on wire (280 bits), 35 bytes captured (280 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Password Authentication Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 3.941594361    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP CCP  37     Configuration Request
+
+Frame 33: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Compression Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 3.941604034    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP IPCP 38     Configuration Request
+
+Frame 34: 38 bytes on wire (304 bits), 38 bytes captured (304 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP IP Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 3.942206262    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP IPCP 60     Configuration Request
+
+Frame 35: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP IP Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 3.942213748    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP CCP  60     Configuration Request
+
+Frame 36: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Compression Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 3.942216209    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP CCP  60     Configuration Reject
+
+Frame 37: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Compression Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 3.942218467    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP IPCP 60     Configuration Reject
+
+Frame 38: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP IP Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 3.942302713    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP IPCP 38     Configuration Reject
+
+Frame 39: 38 bytes on wire (304 bits), 38 bytes captured (304 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP IP Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 3.942311969    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP CCP  26     Configuration Ack
+
+Frame 40: 26 bytes on wire (208 bits), 26 bytes captured (208 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Compression Control Protocol

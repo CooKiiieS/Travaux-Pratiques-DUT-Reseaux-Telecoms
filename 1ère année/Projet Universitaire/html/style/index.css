@@ -1,0 +1,64 @@
+body{
+    background: #311B92  ;
+    background-image:url(../img/background.jpg);
+    font-family:calibri;
+    color:white;
+}
+
+#container{
+	
+    width:547px;
+    margin:0 auto;
+    margin-top:5%;  
+    
+}
+
+/* Bordered form */
+form {
+    width:100%;
+    background:black;
+    
+    padding: 30px;
+    border: 1px solid white;
+
+}
+
+
+#container h3{
+    width: 123%;
+    margin: 0 auto;
+    margin-top: -5px;
+    
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+	
+    background-color: #922B21;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+}
+img {
+	width:25%;
+	  position: absolute;
+	  margin: 1em 39%;
+	  border: 1px solid white;}

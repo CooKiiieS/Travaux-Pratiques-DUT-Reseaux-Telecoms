@@ -1,0 +1,6 @@
+Carte PPP Connexion haut débit :
+
+   Suffixe DNS propre à la connexion. . . :
+   Adresse IPv4. . . . . . . . . . . . . .: 10.213.4.105
+   Masque de sous-réseau. . . . . . . . . : 255.255.255.255
+   Passerelle par défaut. . . . . . . . . : 0.0.0.0

@@ -1,0 +1,155 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    Luxshare_02:b9:b9     Dell_e0:8b:d8         PPP LCP  30     Echo Request
+
+Frame 1: 30 bytes on wire (240 bits), 30 bytes captured (240 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.001271389    Dell_e0:8b:d8         Luxshare_02:b9:b9     PPP LCP  60     Echo Reply
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.217831203    NortelNe_eb:66:a1     Spanning-tree-(for-bridges)_00 STP      60     Conf. Root = 32768/0/00:04:38:eb:66:a1  Cost = 0  Port = 0x8001
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.279325918    10.213.4.108          8.8.8.8               ICMP     106    Echo (ping) request  id=0x59bb, seq=1/256, ttl=64 (reply in 5)
+
+Frame 4: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.285360852    8.8.8.8               10.213.4.108          ICMP     106    Echo (ping) reply    id=0x59bb, seq=1/256, ttl=53 (request in 4)
+
+Frame 5: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.407173390    Dell_e0:7e:ce         Luxshare_02:b9:b9     PPP LCP  60     Echo Request
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.407416956    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPP LCP  30     Echo Reply
+
+Frame 7: 30 bytes on wire (240 bits), 30 bytes captured (240 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.078395052    NortelNe_eb:66:a1     Nortel-autodiscovery  NDP      60     Segment Hello
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Nortel Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.078409706    NortelNe_eb:66:a1     Nortel-autodiscovery  NDP      60     FlatNet Hello
+
+Frame 9: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Nortel Discovery Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.281642925    10.213.4.108          8.8.8.8               ICMP     106    Echo (ping) request  id=0x59bb, seq=2/512, ttl=64 (reply in 11)
+
+Frame 10: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 1.287922289    8.8.8.8               10.213.4.108          ICMP     106    Echo (ping) reply    id=0x59bb, seq=2/512, ttl=53 (request in 10)
+
+Frame 11: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 2.218103671    NortelNe_eb:66:a1     Spanning-tree-(for-bridges)_00 STP      60     Conf. Root = 32768/0/00:04:38:eb:66:a1  Cost = 0  Port = 0x8001
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.283707578    10.213.4.108          8.8.8.8               ICMP     106    Echo (ping) request  id=0x59bb, seq=3/768, ttl=64 (reply in 14)
+
+Frame 13: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 2.289537739    8.8.8.8               10.213.4.108          ICMP     106    Echo (ping) reply    id=0x59bb, seq=3/768, ttl=53 (request in 13)
+
+Frame 14: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 3.284918381    10.213.4.108          8.8.8.8               ICMP     106    Echo (ping) request  id=0x59bb, seq=4/1024, ttl=64 (reply in 16)
+
+Frame 15: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Dell_e0:8b:d8 (98:90:96:e0:8b:d8), Dst: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 10.213.4.108, Dst: 8.8.8.8
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 3.290902439    8.8.8.8               10.213.4.108          ICMP     106    Echo (ping) reply    id=0x59bb, seq=4/1024, ttl=53 (request in 15)
+
+Frame 16: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+Internet Protocol Version 4, Src: 8.8.8.8, Dst: 10.213.4.108
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 4.217847366    NortelNe_eb:66:a1     Spanning-tree-(for-bridges)_00 STP      60     Conf. Root = 32768/0/00:04:38:eb:66:a1  Cost = 0  Port = 0x8001
+
+Frame 17: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol

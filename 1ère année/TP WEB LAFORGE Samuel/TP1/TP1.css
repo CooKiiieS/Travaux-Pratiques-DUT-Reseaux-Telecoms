@@ -1,0 +1,36 @@
+.div1{
+    background-color: #5BB7E7;
+    padding:10px;
+    border-bottom: 10px solid #003E68;
+    margin: 20px;
+    color: white;
+    font-family: helvetica;
+}
+
+.div2{
+    background-color: #808184;
+    padding: 10px;
+    border: 10px solid #808184;
+    border-radius: 0px 0px 0px 20px;
+    margin: 20px;
+}
+p{
+  color: white
+}
+.i2{
+  color: white;
+}
+span{
+  color: #003E68;
+}
+.div3{
+    height: 400px;
+    margin-top: 250px;
+}
+.i1{
+  color: #003E68;
+}
+img{
+	margin-left :1520px;
+	float :left;
+	}

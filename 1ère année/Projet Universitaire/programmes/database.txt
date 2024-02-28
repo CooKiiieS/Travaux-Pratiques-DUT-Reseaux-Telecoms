@@ -1,0 +1,30 @@
+create database sct013; create database si7021a; create database si7021pi; create database projet;
+CREATE TABLE sct013.tension (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021a.ctemp (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021a.ftemp (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021a.crosee (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021a.frosee (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021a.hum (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021pi.ctemp (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021pi.ftemp (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021pi.crosee (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021pi.frosee (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE si7021pi.hum (id INT(16) NOT NULL AUTO_INCREMENT PRIMARY KEY, valeur FLOAT, Time TIMESTAMP);
+CREATE TABLE projet.utilisateur (user varchar(100), pwd varchar(100));
+INSERT INTO `utilisateur`(`user`, `pwd`) VALUES ('louis','louis');
+INSERT INTO `utilisateur`(`user`, `pwd`) VALUES ('samuel','samuel');
+INSERT INTO `utilisateur`(`user`, `pwd`) VALUES ('menglong','menglong');
+INSERT INTO `utilisateur`(`user`, `pwd`) VALUES ('admin','admin');
+
+
+TRUNCATE sct013.tension;
+TRUNCATE si7021a.crosee;
+TRUNCATE si7021a.ctemp;
+TRUNCATE si7021a.frosee;
+TRUNCATE si7021a.ftemp;
+TRUNCATE si7021a.hum;
+TRUNCATE si7021pi.crosee;
+TRUNCATE si7021pi.ctemp;
+TRUNCATE si7021pi.frosee;
+TRUNCATE si7021pi.ftemp;
+TRUNCATE si7021pi.hum;

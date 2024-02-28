@@ -1,0 +1,31 @@
+No.     Time           Source                Destination           Protocol Length Info
+      6 2.223294230    Dell_e0:7e:ce         Luxshare_02:b9:e9     PPP LCP  60     Termination Request
+
+Frame 6: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 2.232263908    Luxshare_02:b9:e9     Dell_e0:7e:ce         PPP LCP  26     Termination Ack
+
+Frame 7: 26 bytes on wire (208 bits), 26 bytes captured (208 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Session
+Point-to-Point Protocol
+PPP Link Control Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 2.276131500    Dell_e0:7e:ce         Luxshare_02:b9:e9     PPPoED   60     Active Discovery Terminate (PADT)
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_e0:7e:ce (98:90:96:e0:7e:ce), Dst: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9)
+PPP-over-Ethernet Discovery
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 2.276418281    Luxshare_02:b9:e9     Dell_e0:7e:ce         PPPoED   37     Active Discovery Terminate (PADT)
+
+Frame 9: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface 0
+Ethernet II, Src: Luxshare_02:b9:e9 (3c:18:a0:02:b9:e9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+PPP-over-Ethernet Discovery

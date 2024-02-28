@@ -1,0 +1,1064 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.214.9.1            10.255.150.114        SIP/SDP  814    Request: INVITE sip:62@10.255.150.114 | 
+
+Frame 1: 814 bytes on wire (6512 bits), 814 bytes captured (6512 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.001586136    10.255.150.114        10.214.9.1            SIP      552    Status: 401 Unauthorized | 
+
+Frame 2: 552 bytes on wire (4416 bits), 552 bytes captured (4416 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (401)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.003906089    10.214.9.1            10.255.150.114        SIP      339    Request: ACK sip:62@10.255.150.114 | 
+
+Frame 3: 339 bytes on wire (2712 bits), 339 bytes captured (2712 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.005136556    10.214.9.1            10.255.150.114        SIP/SDP  971    Request: INVITE sip:62@10.255.150.114 | 
+
+Frame 4: 971 bytes on wire (7768 bits), 971 bytes captured (7768 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.006584031    10.255.150.114        10.255.255.200        DNS      77     Standard query 0x7bf3 A holsteing-laforge
+
+Frame 5: 77 bytes on wire (616 bits), 77 bytes captured (616 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 60928, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.006614170    10.255.150.114        10.255.255.200        DNS      77     Standard query 0xfddd AAAA holsteing-laforge
+
+Frame 6: 77 bytes on wire (616 bits), 77 bytes captured (616 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 60928, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.007125016    10.255.255.200        10.255.150.114        DNS      152    Standard query response 0x7bf3 No such name A holsteing-laforge SOA a.root-servers.net
+
+Frame 7: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 60928
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.007142389    10.255.255.200        10.255.150.114        DNS      152    Standard query response 0xfddd No such name AAAA holsteing-laforge SOA a.root-servers.net
+
+Frame 8: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 60928
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.011366753    10.255.150.114        10.214.9.1            SSH      334    Server: Encrypted packet (len=268)
+
+Frame 9: 334 bytes on wire (2672 bits), 334 bytes captured (2672 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1, Ack: 1, Len: 268
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.011732757    10.255.150.114        10.214.9.1            SSH      286    Server: Encrypted packet (len=220)
+
+Frame 10: 286 bytes on wire (2288 bits), 286 bytes captured (2288 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 269, Ack: 1, Len: 220
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.012486566    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=269 Win=1444 Len=0 TSval=3238832429 TSecr=149945830
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 269, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.012795472    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=489 Win=1444 Len=0 TSval=3238832430 TSecr=149945830
+
+Frame 12: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 489, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.013324228    10.255.150.114        10.255.255.200        DNS      78     Standard query 0xaa14 A A.ROOT-SERVERS.NET
+
+Frame 13: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 42585, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.013354972    10.255.150.114        10.255.255.200        DNS      78     Standard query 0xef57 AAAA A.ROOT-SERVERS.NET
+
+Frame 14: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 42585, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.013840744    10.255.255.200        10.255.150.114        DNS      108    Standard query response 0xef57 AAAA A.ROOT-SERVERS.NET AAAA 2001:503:ba3e::2:30
+
+Frame 15: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 42585
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.013862229    10.255.255.200        10.255.150.114        DNS      96     Standard query response 0xaa14 A A.ROOT-SERVERS.NET A 198.41.0.4
+
+Frame 16: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 42585
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.014582996    10.255.150.114        10.214.9.1            SSH      174    Server: Encrypted packet (len=108)
+
+Frame 17: 174 bytes on wire (1392 bits), 174 bytes captured (1392 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 489, Ack: 1, Len: 108
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.015309117    10.255.150.114        10.214.9.1            SSH      238    Server: Encrypted packet (len=172)
+
+Frame 18: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 597, Ack: 1, Len: 172
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.015423155    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=597 Win=1444 Len=0 TSval=3238832432 TSecr=149945831
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 597, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.016226261    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=769 Win=1444 Len=0 TSval=3238832433 TSecr=149945831
+
+Frame 20: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 769, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.018679784    10.255.150.114        10.214.9.1            SIP      494    Status: 100 Trying | 
+
+Frame 21: 494 bytes on wire (3952 bits), 494 bytes captured (3952 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (100)
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.020484602    10.255.150.114        10.214.9.1            SSH      262    Server: Encrypted packet (len=196)
+
+Frame 22: 262 bytes on wire (2096 bits), 262 bytes captured (2096 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 769, Ack: 1, Len: 196
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.021719471    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=965 Win=1444 Len=0 TSval=3238832438 TSecr=149945833
+
+Frame 23: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 965, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.025425760    10.255.150.114        10.255.255.200        DNS      77     Standard query 0x6999 A holsteing-laforge
+
+Frame 24: 77 bytes on wire (616 bits), 77 bytes captured (616 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 47337, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.025455377    10.255.150.114        10.255.255.200        DNS      77     Standard query 0x0119 AAAA holsteing-laforge
+
+Frame 25: 77 bytes on wire (616 bits), 77 bytes captured (616 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 47337, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.025946399    10.255.255.200        10.255.150.114        DNS      152    Standard query response 0x0119 No such name AAAA holsteing-laforge SOA a.root-servers.net
+
+Frame 26: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 47337
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.025965328    10.255.255.200        10.255.150.114        DNS      152    Standard query response 0x6999 No such name A holsteing-laforge SOA a.root-servers.net
+
+Frame 27: 152 bytes on wire (1216 bits), 152 bytes captured (1216 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 47337
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.027664588    10.255.150.114        10.214.9.1            SSH      334    Server: Encrypted packet (len=268)
+
+Frame 28: 334 bytes on wire (2672 bits), 334 bytes captured (2672 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 965, Ack: 1, Len: 268
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.027993209    10.255.150.114        10.214.9.1            SSH      286    Server: Encrypted packet (len=220)
+
+Frame 29: 286 bytes on wire (2288 bits), 286 bytes captured (2288 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1233, Ack: 1, Len: 220
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.028982910    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=1233 Win=1444 Len=0 TSval=3238832446 TSecr=149945834
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 1233, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.028998530    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=1453 Win=1444 Len=0 TSval=3238832446 TSecr=149945834
+
+Frame 31: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 1453, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.029513530    10.255.150.114        10.255.255.200        DNS      78     Standard query 0x9573 A A.ROOT-SERVERS.NET
+
+Frame 32: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 47660, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.029548925    10.255.150.114        10.255.255.200        DNS      78     Standard query 0x3cdb AAAA A.ROOT-SERVERS.NET
+
+Frame 33: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.255.255.200
+User Datagram Protocol, Src Port: 47660, Dst Port: 53
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.029993418    10.255.255.200        10.255.150.114        DNS      96     Standard query response 0x9573 A A.ROOT-SERVERS.NET A 198.41.0.4
+
+Frame 34: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 47660
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.030010377    10.255.255.200        10.255.150.114        DNS      108    Standard query response 0x3cdb AAAA A.ROOT-SERVERS.NET AAAA 2001:503:ba3e::2:30
+
+Frame 35: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.255.255.200, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 53, Dst Port: 47660
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.030538403    10.255.150.114        10.214.9.1            SSH      174    Server: Encrypted packet (len=108)
+
+Frame 36: 174 bytes on wire (1392 bits), 174 bytes captured (1392 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1453, Ack: 1, Len: 108
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.031430795    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=1561 Win=1444 Len=0 TSval=3238832448 TSecr=149945835
+
+Frame 37: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 1561, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.035613373    10.255.150.114        10.214.10.1           SIP/SDP  868    Request: INVITE sip:62@10.214.10.1 | 
+
+Frame 38: 868 bytes on wire (6944 bits), 868 bytes captured (6944 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.036359077    10.255.150.114        10.214.9.1            SSH      166    Server: Encrypted packet (len=100)
+
+Frame 39: 166 bytes on wire (1328 bits), 166 bytes captured (1328 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1561, Ack: 1, Len: 100
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.037372999    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=1661 Win=1444 Len=0 TSval=3238832454 TSecr=149945837
+
+Frame 40: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 1661, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.037661450    10.214.10.1           10.255.150.114        SIP      326    Status: 100 Trying | 
+
+Frame 41: 326 bytes on wire (2608 bits), 326 bytes captured (2608 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (100)
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 0.037845345    10.214.10.1           10.255.150.114        SIP      368    Status: 180 Ringing | 
+
+Frame 42: 368 bytes on wire (2944 bits), 368 bytes captured (2944 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (180)
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 0.038946478    10.255.150.114        10.214.9.1            SSH      182    Server: Encrypted packet (len=116)
+
+Frame 43: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1661, Ack: 1, Len: 116
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.039092636    10.255.150.114        10.214.9.1            SIP      510    Status: 180 Ringing | 
+
+Frame 44: 510 bytes on wire (4080 bits), 510 bytes captured (4080 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (180)
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 0.040001896    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=1777 Win=1444 Len=0 TSval=3238832457 TSecr=149945837
+
+Frame 45: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 1777, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 0.645919740    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 46: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 1, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 0.646621392    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=45 Win=279 Len=0 TSval=3234570532 TSecr=149945989
+
+Frame 47: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 45, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 1.157847066    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 48: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 45, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 1.158378984    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=89 Win=279 Len=0 TSval=3234571044 TSecr=149946117
+
+Frame 49: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 89, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 1.669481688    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 50: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 89, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 1.670015910    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=133 Win=279 Len=0 TSval=3234571556 TSecr=149946245
+
+Frame 51: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 133, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 2.051646786    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.102.2? Tell 10.255.255.253
+
+Frame 52: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 2.051875181    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.104.1? Tell 10.255.255.253
+
+Frame 53: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 2.052356489    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.160.1? Tell 10.255.255.253
+
+Frame 54: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 2.053017847    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.160.2? Tell 10.255.255.253
+
+Frame 55: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 2.085046882    10.214.10.1           10.255.150.114        RTCP     74     Receiver Report   Source description   
+
+Frame 56: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 8001, Dst Port: 16461
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 2.085077544    10.214.10.1           10.255.150.114        SIP/SDP  713    Status: 200 OK | 
+
+Frame 57: 713 bytes on wire (5704 bits), 713 bytes captured (5704 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 2.086073372    10.255.150.114        10.214.10.1           SIP      426    Request: ACK sip:62@10.214.10.1 | 
+
+Frame 58: 426 bytes on wire (3408 bits), 426 bytes captured (3408 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 2.086775015    10.255.150.114        10.214.9.1            SSH      238    Server: Encrypted packet (len=172)
+
+Frame 59: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1777, Ack: 1, Len: 172
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 2.087952652    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=1949 Win=1444 Len=0 TSval=3238834505 TSecr=149946349
+
+Frame 60: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 1949, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 2.088417607    10.255.150.114        10.214.9.1            SSH      198    Server: Encrypted packet (len=132)
+
+Frame 61: 198 bytes on wire (1584 bits), 198 bytes captured (1584 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 1949, Ack: 1, Len: 132
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 2.089496096    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=2081 Win=1444 Len=0 TSval=3238834506 TSecr=149946350
+
+Frame 62: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 2081, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 2.090580684    10.255.150.114        10.214.9.1            SIP/SDP  794    Status: 200 OK | 
+
+Frame 63: 794 bytes on wire (6352 bits), 794 bytes captured (6352 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 2.092997938    10.255.150.114        10.214.9.1            SSH      254    Server: Encrypted packet (len=188)
+
+Frame 64: 254 bytes on wire (2032 bits), 254 bytes captured (2032 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 2081, Ack: 1, Len: 188
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 2.094003777    10.255.150.114        10.214.10.1           SIP/SDP  832    Request: INVITE sip:62@10.214.10.1, in-dialog | 
+
+Frame 65: 832 bytes on wire (6656 bits), 832 bytes captured (6656 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 2.094228611    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=2269 Win=1444 Len=0 TSval=3238834511 TSecr=149946351
+
+Frame 66: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 2269, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 2.094832830    10.214.10.1           10.255.150.114        SIP/SDP  713    Status: 200 OK | 
+
+Frame 67: 713 bytes on wire (5704 bits), 713 bytes captured (5704 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 2.095928249    10.255.150.114        10.214.10.1           SIP      426    Request: ACK sip:62@10.214.10.1 | 
+
+Frame 68: 426 bytes on wire (3408 bits), 426 bytes captured (3408 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 2.096383791    10.255.150.114        10.214.9.1            SSH      606    Server: Encrypted packet (len=540)
+
+Frame 69: 606 bytes on wire (4848 bits), 606 bytes captured (4848 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 2269, Ack: 1, Len: 540
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 2.096662483    10.255.150.114        10.214.9.1            SSH      238    Server: Encrypted packet (len=172)
+
+Frame 70: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 2809, Ack: 1, Len: 172
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 2.098160702    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=2809 Win=1444 Len=0 TSval=3238834515 TSecr=149946352
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 2809, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 2.098176464    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=2981 Win=1444 Len=0 TSval=3238834515 TSecr=149946352
+
+Frame 72: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 2981, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 2.117072765    10.214.10.1           10.255.150.114        RTCP     86     Receiver Report   Goodbye   
+
+Frame 73: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 8001, Dst Port: 16461
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Goodbye)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 2.181703115    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 74: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 133, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 2.182140138    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=177 Win=279 Len=0 TSval=3234572068 TSecr=149946373
+
+Frame 75: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 177, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 2.183069454    10.214.9.1            10.255.150.114        RTCP     74     Receiver Report   Source description   
+
+Frame 76: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 8001, Dst Port: 11395
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 2.183135823    10.255.150.114        10.214.9.1            ICMP     102    Destination unreachable (Port unreachable)
+
+Frame 77: 102 bytes on wire (816 bits), 102 bytes captured (816 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 2.184001516    10.214.9.1            10.255.150.114        SIP      501    Request: ACK sip:62@10.255.150.114:5060 | 
+
+Frame 78: 501 bytes on wire (4008 bits), 501 bytes captured (4008 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 2.184326077    10.255.150.114        10.214.9.1            SIP/SDP  811    Request: INVITE sip:61@10.214.9.1, in-dialog | 
+
+Frame 79: 811 bytes on wire (6488 bits), 811 bytes captured (6488 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 2.187670225    10.214.9.1            10.255.150.114        SIP/SDP  714    Status: 200 OK | 
+
+Frame 80: 714 bytes on wire (5712 bits), 714 bytes captured (5712 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 2.188162888    10.255.150.114        10.214.9.1            SIP      403    Request: ACK sip:61@10.214.9.1 | 
+
+Frame 81: 403 bytes on wire (3224 bits), 403 bytes captured (3224 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 2.188470490    10.255.150.114        10.214.9.1            SSH      238    Server: Encrypted packet (len=172)
+
+Frame 82: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 2981, Ack: 1, Len: 172
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 2.189777569    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=3153 Win=1444 Len=0 TSval=3238834606 TSecr=149946375
+
+Frame 83: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 3153, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 2.223268275    10.214.9.1            10.255.150.114        RTCP     86     Receiver Report   Goodbye   
+
+Frame 84: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 8001, Dst Port: 11395
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Goodbye)
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 2.699094840    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 85: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 177, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 2.699651206    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=221 Win=279 Len=0 TSval=3234572585 TSecr=149946502
+
+Frame 86: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 221, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 3.205849560    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 87: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 221, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 3.206532782    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=265 Win=279 Len=0 TSval=3234573092 TSecr=149946629
+
+Frame 88: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 265, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 3.717475100    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 89: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 265, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 3.717915010    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=309 Win=279 Len=0 TSval=3234573603 TSecr=149946757
+
+Frame 90: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 309, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 4.229611602    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 91: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 309, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 4.230167550    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=353 Win=279 Len=0 TSval=3234574116 TSecr=149946885
+
+Frame 92: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 353, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 4.741619368    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 93: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 353, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 4.742182203    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=397 Win=279 Len=0 TSval=3234574628 TSecr=149947013
+
+Frame 94: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 397, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 5.009880353    10.214.10.1           10.255.150.114        SIP      373    Request: BYE sip:61@10.255.150.114:5060 | 
+
+Frame 95: 373 bytes on wire (2984 bits), 373 bytes captured (2984 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (BYE)
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 5.011345568    Dell_6b:af:88         26:39:3e:b9:6c:69     ARP      60     Who has 10.255.150.114? Tell 10.255.255.200
+
+Frame 96: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 5.011371760    26:39:3e:b9:6c:69     Dell_6b:af:88         ARP      42     10.255.150.114 is at 26:39:3e:b9:6c:69
+
+Frame 97: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 5.015631083    10.255.150.114        10.214.9.1            SIP/SDP  818    Request: INVITE sip:61@10.214.9.1, in-dialog | 
+
+Frame 98: 818 bytes on wire (6544 bits), 818 bytes captured (6544 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (INVITE)
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 5.016831720    10.255.150.114        10.214.9.1            SSH      246    Server: Encrypted packet (len=180)
+
+Frame 99: 246 bytes on wire (1968 bits), 246 bytes captured (1968 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 3153, Ack: 1, Len: 180
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 5.017925221    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=3333 Win=1444 Len=0 TSval=3238837435 TSecr=149947082
+
+Frame 100: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 3333, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 5.019068150    10.255.150.114        10.214.9.1            SSH      334    Server: Encrypted packet (len=268)
+
+Frame 101: 334 bytes on wire (2672 bits), 334 bytes captured (2672 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 3333, Ack: 1, Len: 268
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 5.020240117    10.255.150.114        10.214.10.1           SIP      493    Status: 200 OK | 
+
+Frame 102: 493 bytes on wire (3944 bits), 493 bytes captured (3944 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 5.020524459    10.214.9.1            10.255.150.114        SIP/SDP  714    Status: 200 OK | 
+
+Frame 103: 714 bytes on wire (5712 bits), 714 bytes captured (5712 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 5.020536726    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=3601 Win=1444 Len=0 TSval=3238837437 TSecr=149947082
+
+Frame 104: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 3601, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 5.022689280    10.255.150.114        10.214.9.1            SSH      238    Server: Encrypted packet (len=172)
+
+Frame 105: 238 bytes on wire (1904 bits), 238 bytes captured (1904 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 47524, Seq: 3601, Ack: 1, Len: 172
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 5.022944706    10.255.150.114        10.214.9.1            SIP      403    Request: ACK sip:61@10.214.9.1 | 
+
+Frame 106: 403 bytes on wire (3224 bits), 403 bytes captured (3224 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (ACK)
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 5.023711477    10.214.9.1            10.255.150.114        TCP      66     47524 → 22 [ACK] Seq=1 Ack=3773 Win=1444 Len=0 TSval=3238837440 TSecr=149947083
+
+Frame 107: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 47524, Dst Port: 22, Seq: 1, Ack: 3773, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 5.041004572    10.255.150.114        10.214.9.1            SIP      602    Request: BYE sip:61@10.214.9.1 | 
+
+Frame 108: 602 bytes on wire (4816 bits), 602 bytes captured (4816 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (BYE)
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 5.074016267    10.214.9.1            10.255.150.114        RTCP     74     Receiver Report   Source description   
+
+Frame 109: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 8001, Dst Port: 11395
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Source description)
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 5.074649133    10.214.9.1            10.255.150.114        SIP      336    Status: 200 OK | 
+
+Frame 110: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 5060, Dst Port: 5060
+Session Initiation Protocol (200)
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 5.081810273    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.102.2? Tell 10.255.255.253
+
+Frame 111: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 5.082219796    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.104.1? Tell 10.255.255.253
+
+Frame 112: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 5.082770605    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.160.1? Tell 10.255.255.253
+
+Frame 113: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 5.083145662    HewlettP_2d:df:4c     Broadcast             ARP      60     Who has 10.255.160.2? Tell 10.255.255.253
+
+Frame 114: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 5.098461437    10.214.9.1            10.255.150.114        RTCP     86     Receiver Report   Goodbye   
+
+Frame 115: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.9.1, Dst: 10.255.150.114
+User Datagram Protocol, Src Port: 8001, Dst Port: 11395
+Real-time Transport Control Protocol (Receiver Report)
+Real-time Transport Control Protocol (Goodbye)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 5.098493926    10.255.150.114        10.214.9.1            ICMP     114    Destination unreachable (Port unreachable)
+
+Frame 116: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.9.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 5.232249533    26:39:3e:b9:6c:69     Dell_6b:af:88         ARP      42     Who has 10.255.255.200? Tell 10.255.150.114
+
+Frame 117: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: Dell_6b:af:88 (14:18:77:6b:af:88)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 5.232607921    Dell_6b:af:88         26:39:3e:b9:6c:69     ARP      60     10.255.255.200 is at 14:18:77:6b:af:88
+
+Frame 118: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: Dell_6b:af:88 (14:18:77:6b:af:88), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 5.253748046    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 119: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 397, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 5.254251527    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=441 Win=279 Len=0 TSval=3234575140 TSecr=149947141
+
+Frame 120: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 441, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 5.765974191    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 121: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 441, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 5.766603831    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=485 Win=279 Len=0 TSval=3234575652 TSecr=149947269
+
+Frame 122: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 485, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 6.278688216    10.255.150.114        10.214.10.1           SSH      110    Server: Encrypted packet (len=44)
+
+Frame 123: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69), Dst: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c)
+Internet Protocol Version 4, Src: 10.255.150.114, Dst: 10.214.10.1
+Transmission Control Protocol, Src Port: 22, Dst Port: 49404, Seq: 485, Ack: 1, Len: 44
+SSH Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 6.279186882    10.214.10.1           10.255.150.114        TCP      66     49404 → 22 [ACK] Seq=1 Ack=529 Win=279 Len=0 TSval=3234576165 TSecr=149947397
+
+Frame 124: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: HewlettP_2d:df:4c (d0:7e:28:2d:df:4c), Dst: 26:39:3e:b9:6c:69 (26:39:3e:b9:6c:69)
+Internet Protocol Version 4, Src: 10.214.10.1, Dst: 10.255.150.114
+Transmission Control Protocol, Src Port: 49404, Dst Port: 22, Seq: 1, Ack: 529, Len: 0

@@ -1,0 +1,80 @@
+{
+  "subscribeTopics" : [ {
+    "name" : "home/garden/fountain",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021a/ctemp",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021a/ftemp",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021a/crosee",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021a/ctelo",
+    "color" : "#CCB3FF"
+  }, {
+    "name" : "projet/si7021a/frosee",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021a/humidite",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021pi/crosee",
+    "color" : "#000000"
+  }, {
+    "name" : "projet/si7021pi/ctemp",
+    "color" : "#000000"
+  }, {
+    "name" : "projet/si7021pi/frosee",
+    "color" : "#000000"
+  }, {
+    "name" : "projet/si7021pi/ftemp",
+    "color" : "#000000"
+  }, {
+    "name" : "projet/si7021pi/hum",
+    "color" : "#000000"
+  }, {
+    "name" : "projet/sct013/tension",
+    "color" : "#990000"
+  }, {
+    "name" : "projet/si7021a/hum",
+    "color" : "#FFFFFF"
+  }, {
+    "name" : "projet/si7021pi/humidite",
+    "color" : "#FFFFFF"
+  } ],
+  "publishTopics" : [ {
+    "name" : "home/garden/fountain"
+  }, {
+    "name" : "projet/si7021a/ctemp"
+  }, {
+    "name" : "projet/si7021a/ftemp"
+  }, {
+    "name" : "projet/si7021a/crosee"
+  }, {
+    "name" : "projet/si7021a/ctelo"
+  }, {
+    "name" : "projet/si7021a/frosee"
+  }, {
+    "name" : "projet/si7021a/humidite"
+  }, {
+    "name" : "projet/si7021pi/crosee"
+  }, {
+    "name" : "projet/si7021pi/ctemp"
+  }, {
+    "name" : "projet/si7021pi/frosee"
+  }, {
+    "name" : "projet/si7021pi/ftemp"
+  }, {
+    "name" : "projet/si7021pi/hum"
+  }, {
+    "name" : "projet/sct013/tension"
+  }, {
+    "name" : "projet/si7021a/hum"
+  }, {
+    "name" : "projet/si7021pi/humidite"
+  } ],
+  "clipboardMessages" : [ ]
+}

@@ -1,0 +1,38 @@
+sudo apt update
+sudo apt upgrade
+sudo apt update
+
+sudo apt install apache2
+
+sudo chown -R pi:www-data /var/www/html/
+sudo chmod -R 770 /var/www/html/
+
+wget -O verif_apache.html http://127.0.0.1
+
+cat ./verif_apache.html
+
+sudo apt install php php-mbstring
+sudo rm /var/www/html/index.html
+echo "<?php phpinfo(); ?>" > /var/www/html/index.php
+
+sudo apt install mysql-server php-mysql
+
+sudo mysql --user=root
+DROP USER 'root'@'localhost';
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
+
+sudo apt install phpmyadmin (dbconfig : no)
+sudo phpenmod mysqli
+sudo /etc/init.d/apache2 restart
+
+bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+node-red-start
+node-red-stop
+(installer librairie mysql)
+
+sudo apt-get install mosquitto mosquitto-clients
+ps aux | grep mosquitto
+
+pip install paho-mqtt
+pip3 install paho-mqtt

@@ -1,0 +1,73 @@
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.863514213    Luxshare_02:b9:b9     Dell_e0:8b:d8         PPPoED   24     Active Discovery Session-confirmation (PADS)
+
+Frame 6: 24 bytes on wire (192 bits), 24 bytes captured (192 bits) on interface 0
+    Interface id: 0 (enx3c18a002b9b9)
+        Interface name: enx3c18a002b9b9
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan 17, 2020 17:17:44.668063376 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1579277864.668063376 seconds
+    [Time delta from previous captured frame: 0.000373987 seconds]
+    [Time delta from previous displayed frame: 0.000373987 seconds]
+    [Time since reference or first frame: 0.863514213 seconds]
+    Frame Number: 6
+    Frame Length: 24 bytes (192 bits)
+    Capture Length: 24 bytes (192 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:pppoed]
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+    Destination: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+        Address: Dell_e0:8b:d8 (98:90:96:e0:8b:d8)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+        Address: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: PPPoE Discovery (0x8863)
+PPP-over-Ethernet Discovery
+    0001 .... = Version: 1
+    .... 0001 = Type: 1
+    Code: Active Discovery Session-confirmation (PADS) (0x65)
+    Session ID: 0x000c
+    Payload Length: 4
+    PPPoE Tags
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 6.035781415    Luxshare_02:b9:b9     Dell_e0:7e:ce         PPPoED   24     Active Discovery Session-confirmation (PADS)
+
+Frame 52: 24 bytes on wire (192 bits), 24 bytes captured (192 bits) on interface 0
+    Interface id: 0 (enx3c18a002b9b9)
+        Interface name: enx3c18a002b9b9
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Jan 17, 2020 17:17:49.840330578 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1579277869.840330578 seconds
+    [Time delta from previous captured frame: 0.000279072 seconds]
+    [Time delta from previous displayed frame: 0.000279072 seconds]
+    [Time since reference or first frame: 6.035781415 seconds]
+    Frame Number: 52
+    Frame Length: 24 bytes (192 bits)
+    Capture Length: 24 bytes (192 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:pppoed]
+Ethernet II, Src: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9), Dst: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+    Destination: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+        Address: Dell_e0:7e:ce (98:90:96:e0:7e:ce)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+        Address: Luxshare_02:b9:b9 (3c:18:a0:02:b9:b9)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: PPPoE Discovery (0x8863)
+PPP-over-Ethernet Discovery
+    0001 .... = Version: 1
+    .... 0001 = Type: 1
+    Code: Active Discovery Session-confirmation (PADS) (0x65)
+    Session ID: 0x000d
+    Payload Length: 4
+    PPPoE Tags
